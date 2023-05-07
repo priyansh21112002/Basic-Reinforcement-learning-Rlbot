@@ -23,7 +23,7 @@ if __name__ == '__main__':  # Required for multiprocessing
     frame_skip = 8        # Number of ticks to repeat an action
     half_life_seconds = 5   # Easier to conceptualize, after this many seconds the reward discount is 0.5
 
-    add = 'C:/Users/martico 09/Desktop/VOLTBot/BOT TRAIN/'
+    add = '.../Desktop/VOLTBot/BOT TRAIN/'
 
     fps = 120 / frame_skip
     gamma = np.exp(np.log(0.5) / (fps * half_life_seconds))  # Quick mafs
